@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1059310220925",
+    "project_id": "teambuilder-e7c4c",
+    "storage_bucket": "teambuilder-e7c4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059310220925:android:2967afab8713ccb775a314",
+        "android_client_info": {
+          "package_name": "com.example.teambuilder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059310220925-05q2sposhdnheddhjl6knc2aunqh4nbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh8HzrMyDxKsFP_ovQmJceJMWHKuf-gN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059310220925-05q2sposhdnheddhjl6knc2aunqh4nbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

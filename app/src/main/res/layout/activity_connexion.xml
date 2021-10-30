@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arriere"
+    tools:context=".Connexion">
+
+
+    <TextView
+        android:id="@+id/ConnexionTitre"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="80dp"
+        android:accessibilityLiveRegion="polite"
+        android:freezesText="true"
+        android:text="Connexion"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Connexion" />
+
+    <EditText
+        android:padding="10dp"
+
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:background="@color/black"
+        android:layout_marginTop="-10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConnexionTitre"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <EditText
+        android:padding="10dp"
+
+        android:id="@+id/Mot_passe"
+        android:layout_width="match_parent"
+        android:layout_marginTop="-10dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:hint="Mot Passe"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <Button
+        android:id="@+id/Connexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@color/white"
+        android:text="Connexion"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mot_passe"
+        app:layout_constraintVertical_bias="0.149" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
